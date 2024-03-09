@@ -1,10 +1,10 @@
 /**
  * 
  */
-alert("誕生日まで");
+alert("もうすぐ誕生日？");
 function showRestTime() {
   const now = new Date();
-  const goal = new Date(2050, 0, 1);
+  const goal = new Date(2024, 3, 18);
 
   const restMillisecond = goal.getTime() - now.getTime();
   const day = Math.floor(restMillisecond / 1000 / 60 / 60 / 24);
