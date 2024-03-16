@@ -21,6 +21,8 @@ div#table{
   width: 100px;  /* 正方形を作る */
   height: 100px; /* 正方形を作る */
   position: relative;/* 基準位置とする */
+  margin: auto
+  
 }
 .heart::before,
 .heart::after {
