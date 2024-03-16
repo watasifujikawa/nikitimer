@@ -2,3 +2,17 @@
 div#table{
 	text-align: center;
 }
+/* フェードインのアニメーションを定義 */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 開始時の透明度 */
+  }
+  to {
+    opacity: 1; /* 終了時の透明度 */
+  }
+}
+
+/* フェードインする要素に対して、アニメーションを適用 */
+#fade-in-element {
+  animation: fadeIn 10s ease-in-out; /* フェードインのアニメーションを1秒かけて実行 */
+}
